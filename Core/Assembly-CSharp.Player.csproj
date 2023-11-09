@@ -697,21 +697,21 @@
       <Project>{FDC9AE8F-2067-197C-92C5-CFC1A8B2F78C}</Project>
       <Name>Unity.Timeline.Player</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
-      <Project>{0C5AF337-C0A7-84BA-4F8C-163AC02D07FB}</Project>
-      <Name>Unity.VisualScripting.Core.Player</Name>
+    <ProjectReference Include="UnityEngine.UI.Player.csproj">
+      <Project>{ABEE1283-08B1-018D-666C-93AD1B7FD843}</Project>
+      <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Player.csproj">
       <Project>{672401E9-F157-395C-09F5-6F2BC3ADA67F}</Project>
       <Name>Unity.TextMeshPro.Player</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.VisualScripting.Core.Player.csproj">
+      <Project>{0C5AF337-C0A7-84BA-4F8C-163AC02D07FB}</Project>
+      <Name>Unity.VisualScripting.Core.Player</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Player.csproj">
       <Project>{6792F42A-DFDC-E449-351F-175955D9B7D5}</Project>
       <Name>Unity.VisualScripting.State.Player</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.Player.csproj">
-      <Project>{ABEE1283-08B1-018D-666C-93AD1B7FD843}</Project>
-      <Name>UnityEngine.UI.Player</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Player.csproj">
       <Project>{929F052E-2DAC-6564-2F83-5C42205E5760}</Project>
