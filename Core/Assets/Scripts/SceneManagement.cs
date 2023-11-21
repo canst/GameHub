@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UIElements;
 
 public class SceneManagement : MonoBehaviour
 {
+    [SerializeField]
+    GameObject clickobj;
     // Start is called before the first frame update
     void Start()
     {
@@ -36,4 +39,5 @@ public class SceneManagement : MonoBehaviour
     {
         SceneManager.LoadScene("Scene_03", LoadSceneMode.Single);
     }
-}
+
+   }
