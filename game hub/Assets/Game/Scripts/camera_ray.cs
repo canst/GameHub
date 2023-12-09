@@ -14,7 +14,7 @@ namespace Lev {
         public LayerMask ignoreMe;
         public Transform crosshair_t;
         public Transform push_object;
-        public float pushing_strength = 1f;
+        public float pushing_strength = 0.5f;
 
         private GameObject[] jumpy_objects;
 

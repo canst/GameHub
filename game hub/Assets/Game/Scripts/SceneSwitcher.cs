@@ -14,5 +14,15 @@ public class SceneSwitcher : MonoBehaviour
         {
             SceneManager.LoadScene(sceneToLoad); // Lädt die Zielszene
         }
+       
     }
+
+    public void LoadStart()
+    {
+        SceneManager.LoadScene("GameHub", LoadSceneMode.Single);
+    }
+
+
+
 }
+
