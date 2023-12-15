@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Game/Scenes/NewScene.unity
     guid: 5efd05f0d4d544c1ea031049dc27e1d7
+  - enabled: 1
+    path: Assets/Game/Scenes/snake.unity
+    guid: 03ff01abe676e460f82561b250fa3133
+  - enabled: 1
+    path: Assets/Daniil/Scenes/Daniil.unity
+    guid: d3c697708a00c450fbdad54f95f75e07
+  - enabled: 1
+    path: Assets/Freiheit/feicht_Gump.unity
+    guid: ce80072efe3714b24a1dcb1e0a953db5
   m_configObjects: {}

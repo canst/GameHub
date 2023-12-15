@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace game{
+namespace Freiheit{
     public enum Interaction_types
     {
         OBJECT_UP, VACUUM_CLEANER, PUSH_OBJECT
