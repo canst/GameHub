@@ -15,12 +15,15 @@ EditorBuildSettings:
     path: Assets/Game/Scenes/snake.unity
     guid: 03ff01abe676e460f82561b250fa3133
   - enabled: 1
-    path: Assets/Daniil/Scenes/Daniil.unity
-    guid: d3c697708a00c450fbdad54f95f75e07
-  - enabled: 1
     path: Assets/Freiheit/feicht_Gump.unity
     guid: ce80072efe3714b24a1dcb1e0a953db5
   - enabled: 1
     path: Assets/Hourglass/HourGlass.unity
     guid: d30b47e654c744ebbbcb28e08794a0cd
+  - enabled: 1
+    path: Assets/DaniilOrtner/Scenes/Daniil2.unity
+    guid: 10d81bc5dcd8a42ee9d5a594e431528a
+  - enabled: 1
+    path: Assets/Helena/Scenes/Helena.unity
+    guid: 10adf6e7df30b4c59abcc00c91462c42
   m_configObjects: {}
