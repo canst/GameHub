@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Freiheit/feicht_Gump.unity
     guid: ce80072efe3714b24a1dcb1e0a953db5
+  - enabled: 1
+    path: Assets/Hourglass/HourGlass.unity
+    guid: d30b47e654c744ebbbcb28e08794a0cd
   m_configObjects: {}
