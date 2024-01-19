@@ -1,6 +1,7 @@
 using UnityEngine;
 
-namespace Helena {
+
+namespace helena2 {
 
 public class CubeController : MonoBehaviour
 {
@@ -22,10 +23,18 @@ public class CubeController : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (gameObject == giganticBall && !isGiganticBallActivated)
+        if (gameObject == giganticBall)
         {
-            // Clicking the gigantic ball before activation
-            ActivateGiganticBall();
+            if (!isGiganticBallActivated)
+            {
+                // Clicking the gigantic ball before activation
+                ActivateGiganticBall();
+            }
+            else
+            {
+                // Clicking the gigantic ball after activation
+                ResetEverything();
+            }
         }
         else if (!isGiganticBallActivated && stackCount < 4)
         {
@@ -101,6 +110,27 @@ public class CubeController : MonoBehaviour
         }
 
         isGiganticBallActivated = true;
+    }
+
+    void ResetEverything()
+    {
+        // Reset state to initial values
+        isGiganticBallActivated = false;
+        stackCount = 0;
+
+        // Enable gravity for the gigantic ball
+        rb.useGravity = true;
+
+        // Disable gravity for all other cubes and reset their colors
+        Rigidbody[] allCubes = FindObjectsOfType<Rigidbody>();
+        foreach (Rigidbody cubeRb in allCubes)
+        {
+            if (cubeRb.CompareTag("Cube") && cubeRb.gameObject != giganticBall)
+            {
+                cubeRb.useGravity = false;
+                ChangeCubeColor(cubeRb.gameObject, originalColor);
+            }
+        }
     }
 
     void ChangeCubeColor(GameObject cube, Color color)
